@@ -1,0 +1,10 @@
+.header__callback {
+    width: 228px;
+    height: 38px;
+}
+
+@media (max-width: 959px) {
+    .header__callback {
+        display: none;
+    }
+}

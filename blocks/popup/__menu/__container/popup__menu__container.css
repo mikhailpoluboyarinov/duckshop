@@ -1,0 +1,18 @@
+.popup__menu__container {
+    width: 100%;
+    min-height: 381px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 0 0 12px 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+}
+
+@media (min-width: 960px) {
+    .popup__menu__container {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 20px;
+    }
+}

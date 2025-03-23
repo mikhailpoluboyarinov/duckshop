@@ -1,0 +1,11 @@
+.form__field {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.form__field-star {
+    color: #FF6C2D;
+}

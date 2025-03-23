@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck shop</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" href="./images/icon-duck.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="page__content">
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo">
+            <a class="logo" href="#">
+                <img class="logo__image" src="images/header-logo.png" alt="Логотип">
+            </a>
+        </div>
+        <div class="header__nav-actions">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--active"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item nav__item--dropdown"><a href="#" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Блог</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__nav-actions">
+                <div class="header__actions">
+                    <button class="header__basket" aria-label="Корзина">
+                        <span class="icon"></span>
+                    </button>
+                    <button class="button header__callback">Заказать обратный звонок</button>
+                </div>
+                <button class="header__burger" aria-label="Меню">
+                    <span class="icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="main__block">
+        <h1 class="main__title">
+            <span class="main__title-word main__title-word--first">МНОГО</span>
+            <span class="main__title-word main__title-word--second">УТОЧЕК</span>
+        </h1>
+        <div class="main__content">
+            <h2 class="main__subtitle">
+                Маленький друг найдётся для каждого <br>
+                в этом кряквенно жёлтом мире
+            </h2>
+            <button class="main__button">Смотреть уточек</button>
+        </div>
+    </section>
+    <section class="categories">
+        <ul class="categories__list">
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Классические</a></li>
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Уточки панки</a></li>
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Супергерои</a></li>
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Милые</a></li>
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Для детей</a></li>
+            <li class="categories__item categories__item--arrow"><a href="#" class="categories__link">Взрослым</a></li>
+        </ul>
+    </section>
+</main>
+
+<div class="popup">
+    <div class="popup__container">
+        <form class="form" name="form">
+            <div class="form__container">
+                <label class="form__field" for="name-input">Имя<span class="form__field-star">&nbsp;*</span></label>
+                <input class="form__input" id="name-input" type="text" name="name" value="" placeholder="Введите ваше имя" autocomplete="off" minlength="2" maxlength="40" required>
+            </div>
+            <div class="form__container">
+                <label class="form__field" for="telephone-input">Телефон<span class="form__field-star">&nbsp;*</span></label>
+                <input class="form__input" id="telephone-input" type="text" name="telephone" autocomplete="off" value="" placeholder="+7 000 000 00 00" minlength="7" maxlength="12" required>
+             </div>
+            <button class="button form__button-submit" type="submit">Отправить</button>
+            <p class="form__paragraph">
+                Нажимая кнопку “Отправить”, вы соглашаетесь с
+                <a href="#" class="form__link">политикой конфиденциальности</a> и
+                <a href="#" class="form__link">договором оферты</a>.
+            </p>
+        </form>
+        <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+    </div>
+</div>
+
+<div class="popup__menu">
+    <div class="popup__menu__container">
+        <div class="popup__menu__header">
+            <div class="popup__menu__logo">
+                <a class="logo" href="#">
+                    <img class="logo__image" src="images/header-logo.png" alt="Логотип">
+                </a>
+            </div>
+            <button class="popup__menu__close" aria-label="Закрыть меню">&times;</button>
+        </div>
+        <div class="popup__actions">
+            <nav class="popup__menu__nav">
+                <ul class="nav__list nav__list--mobile">
+                    <li class="nav__item nav__item--active nav__item--mobile"><a href="#" class="nav__link">Главная</a></li>
+                    <li class="nav__item nav__item--dropdown nav__item--mobile"><a href="#" class="nav__link">Каталог</a></li>
+                    <li class="nav__item nav__item--mobile"><a href="#" class="nav__link">Блог</a></li>
+                    <li class="nav__item nav__item--mobile"><a href="#" class="nav__link">Отзывы</a></li>
+                    <li class="nav__item nav__item--mobile"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="button popup__menu__callback">Заказать обратный звонок</button>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="pages/index.js"></script>
+</body>
+</html>

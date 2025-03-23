@@ -1,0 +1,9 @@
+.form__button-submit {
+    width: 337px;
+}
+
+@media (max-width: 1279px) {
+    .form__button-submit {
+        width: 312px;
+    }
+}

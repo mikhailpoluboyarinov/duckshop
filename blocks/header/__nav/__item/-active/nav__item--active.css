@@ -1,0 +1,5 @@
+.nav__item--active  {
+    color: #2581EB;
+    border-bottom: 2px solid #2581EB;
+    padding-bottom: 9px;
+}

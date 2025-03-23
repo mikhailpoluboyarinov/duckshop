@@ -1,0 +1,35 @@
+.header__burger {
+    display: none;
+}
+
+@media (max-width: 1279px) {
+    .header__burger {
+        background-color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding-left: 19px;
+        padding-right: 1px;
+    }
+
+    .header__burger .icon::before {
+        content: url('/images/icon-burger.svg');
+        width: 40px;
+        height: 40px;
+        display: block;
+    }
+
+    .header__burger:hover .icon::before {
+        content: url('/images/icon-burger-hover.svg');
+    }
+
+    .header__burger:active .icon::before {
+        content: url('/images/icon-burger-active.svg');
+    }
+}
+
+@media (max-width: 959px) {
+    .header__burger {
+        padding-left: 4px;
+    }
+}

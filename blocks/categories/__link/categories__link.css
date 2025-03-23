@@ -1,0 +1,8 @@
+.categories__link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    line-height: 20px;
+    font-weight: 400;
+}

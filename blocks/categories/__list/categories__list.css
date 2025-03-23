@@ -1,0 +1,17 @@
+.categories__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media (max-width: 959px) {
+    .categories__list {
+        flex-direction: column;
+        margin-left: 48px;
+        margin-top: -107px;
+        gap: 12px;
+    }
+}

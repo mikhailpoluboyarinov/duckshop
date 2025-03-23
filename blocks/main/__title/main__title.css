@@ -1,0 +1,26 @@
+.main__title {
+    margin: 0;
+    padding-top: 49px;
+    font-family: 'Jura', sans-serif;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 152px;
+    color: #1E1E1E;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+    .main__title {
+        padding-top: 16px;
+        min-height: 302px;
+    }
+}
+
+@media (max-width: 959px) {
+    .main__title {
+        font-size: 92px;
+        padding-top: 14px;
+        min-height: 200px;
+    }
+}

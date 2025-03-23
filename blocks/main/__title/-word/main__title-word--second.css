@@ -1,0 +1,19 @@
+.main__title-word--second {
+    position: relative;
+    top: 92px;
+    left: 160px;
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+    .main__title-word--second {
+        left: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 959px) {
+    .main__title-word--second {
+        left: 0;
+        top: 0;
+    }
+}
