@@ -13,18 +13,18 @@
     }
 
     .header__burger .icon::before {
-        content: url('/images/icon-burger.svg');
+        content: url('../../../images/icon-burger.svg');
         width: 40px;
         height: 40px;
         display: block;
     }
 
     .header__burger:hover .icon::before {
-        content: url('/images/icon-burger-hover.svg');
+        content: url('../../../images/icon-burger-hover.svg');
     }
 
     .header__burger:active .icon::before {
-        content: url('/images/icon-burger-active.svg');
+        content: url('../../../images/icon-burger-active.svg');
     }
 }
 

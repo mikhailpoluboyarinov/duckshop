@@ -7,16 +7,16 @@
 }
 
 .header__basket .icon::before {
-    content: url('/images/icon-basket.svg');
+    content: url('../../../images/icon-basket.svg');
     width: 40px;
     height: 40px;
     display: block;
 }
 
 .header__basket:hover .icon::before {
-    content: url('/images/icon-basket-hover.svg');
+    content: url('../../../images/icon-basket-hover.svg');
 }
 
 .header__basket:active .icon::before {
-    content: url('/images/icon-basket-active.svg');
+    content: url('../../../images/icon-basket-active.svg');
 }

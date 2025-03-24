@@ -10,8 +10,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("/images/image-background-quack.jpg") no-repeat 282px 252px,
-    url("/images/image-background.svg") no-repeat center 35px;
+    background: url("../../../images/image-background-quack.jpg") no-repeat 282px 252px,
+    url("../../../images/image-background.svg") no-repeat center 35px;
     background-size: 120px 108px, 620px 606px;
     z-index: 2;
 }
@@ -22,8 +22,8 @@
     }
 
     .main__block::before {
-        background: url("/images/image-background-quack.jpg") no-repeat 600px 194px,
-        url("/images/image-background.svg") no-repeat 649px -25px;
+        background: url("../../../images/image-background-quack.jpg") no-repeat 600px 194px,
+        url("../../../images/image-background.svg") no-repeat 649px -25px;
         background-size: 120px 108px, 577px 577px;
     }
 }
@@ -34,8 +34,8 @@
     }
 
     .main__block::before {
-        background: url("/images/image-background-quack.jpg") no-repeat 162px 359px,
-        url("/images/image-background.svg") no-repeat 183px 234px;
+        background: url("../../../images/image-background-quack.jpg") no-repeat 162px 359px,
+        url("../../../images/image-background.svg") no-repeat 183px 234px;
         background-size: 64px 56px, 343px 343px;
     }
 }

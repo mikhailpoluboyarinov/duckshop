@@ -19,11 +19,11 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("/images/icon-arrow-down.svg") no-repeat center/contain;
+    background: url("../../../../images/icon-arrow-down.svg") no-repeat center/contain;
 }
 
 .nav__item--dropdown .nav__link:hover::after {
-    background: url("/images/icon-arrow-down-hover.svg") no-repeat center/contain;
+    background: url("../../../../images/icon-arrow-down-hover.svg") no-repeat center/contain;
 }
 
 .nav__item:hover {
