@@ -11,7 +11,7 @@
     }
 }
 
-@media (max-width: 959px) {
+@media (max-width: 480px) {
     .main__title-word--second {
         left: 0;
         top: 0;

@@ -46,7 +46,18 @@
     }
 }
 
-@media (max-width: 959px) {
+@media (min-width: 481px) and (max-width: 960px) {
+    .categories__item {
+        margin-right: 0;
+        margin-left: 31px;
+    }
+
+    .categories__item:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
     .categories__item {
         margin-right: 0;
         margin-left: 0;

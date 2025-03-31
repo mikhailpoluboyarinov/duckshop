@@ -28,7 +28,19 @@
     }
 }
 
-@media (max-width: 959px) {
+@media (min-width: 481px) and (max-width: 959px) {
+    .main__block {
+        min-height: 504px;
+    }
+
+    .main__block::before {
+        background: url("../../../images/image-background-quack.jpg") no-repeat 300px 194px,
+        url("../../../images/image-background.svg") no-repeat 349px -25px;
+        background-size: 120px 108px, 577px 577px;
+    }
+}
+
+@media (max-width: 480px) {
     .main__block {
         min-height: 550px;
     }
