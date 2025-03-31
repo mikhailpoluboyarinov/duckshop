@@ -41,3 +41,5 @@
 @import url(../blocks/form/__paragraph/form__paragraph.css);
 @import url(../blocks/form/__link/fotm__link.css);
 @import url(../blocks/form/__button/-submit/form__button-submit.css);
+
+@import url(../blocks/body/body_no-scroll.css);
